@@ -1,0 +1,8 @@
+applications:
+- name: saas-platform-health-test
+  path: target/noob-0.jar
+  memory: 1024MB
+  instances: 1
+  host: some-host
+  domains:
+    - some-domain
